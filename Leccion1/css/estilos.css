@@ -1,3 +1,10 @@
+/* Selector universal para aplicar estilo a todo */
+
+* {
+    background-color: coral;
+    color: cornflowerblue;
+}
+
 h1 {
     color: green !important; /* Toma prioridad con el important */
     font-size: 80px;
