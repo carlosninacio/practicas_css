@@ -3,7 +3,10 @@ h1 {
 }
 
 .rojo {
-    background-color: FireBrick;
+    /*background-color: FireBrick;*/
+
+    /* Border en CSS */
+    border: 4px solid firebrick;
 }
 
 .rosa {
@@ -28,6 +31,6 @@ h1 {
 
 /* Agrupar clases para darles el mismo estilo */
 
-.rojo, .rosa, .violeta {
+.rosa, .violeta {
     color: white;
 }
