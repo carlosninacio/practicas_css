@@ -3,3 +3,10 @@ h1 {
     font-size: 80px;
     text-align: left;
 }
+
+/* Estilo de tipo ID */
+#titulo {
+    color: pink;
+    text-align: center;
+    font-size: 40px;
+}
