@@ -15,3 +15,7 @@ h1 {
 .centrar {
     text-align: center;
 }
+
+.texto_grande {
+    font-size: 20px;
+}
