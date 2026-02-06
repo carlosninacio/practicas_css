@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a CSS</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
     <!-- Internal CSS -->
     <style>
         h1 {
             color: red;
-            font-size: 30;
+            font-size: 10px;
             text-align: right;
         }
     </style>
@@ -16,5 +17,7 @@
 <body>
     <h1 style="color:blue; text-align: center; font-size: 100px;">Prueba CSS inLine</h1> <!-- CSS inline -->
     <h1>Prueba Internal CSS</h1> <!-- Tiene prioridad el inLine sobre el Internal -->
+    <h1>Prueba CSS en archivo externo</h1> <!-- Tiene prioridad el Internal sobre el archivo externo -->
+    <!-- Con el important se puede definir que atributo debe tomar prioridad -->
 </body>
 </html>

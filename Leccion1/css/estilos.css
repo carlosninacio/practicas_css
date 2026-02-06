@@ -1,0 +1,5 @@
+h1 {
+    color: green !important; /* Toma prioridad con el important */
+    font-size: 80px;
+    text-align: left;
+}
