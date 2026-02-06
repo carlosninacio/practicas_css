@@ -2,8 +2,6 @@ h1 {
     text-align: center;
 }
 
-
-
 .rojo {
     background-color: FireBrick;
 }
@@ -12,8 +10,24 @@ h1 {
     background-color: hotpink;
 }
 
+.amarillo {
+    background-color: gold;
+}
+
+.violeta {
+    background-color: blueviolet;
+}
+
+.verde {
+    background-color: lime;
+}
+
+.azul {
+    background-color: turquoise;
+}
+
 /* Agrupar clases para darles el mismo estilo */
 
-.rojo, .rosa {
+.rojo, .rosa, .violeta {
     color: white;
 }
