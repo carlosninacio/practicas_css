@@ -2,3 +2,13 @@ h1 {
     text-align: center;
     color: #e63946;
 }
+
+div {
+    padding: 30px; /* padding y margin son transparentes */
+    border: 15px solid blueviolet;
+    margin: 80px;
+    background-color: chartreuse;
+    width: 150px;
+    /* Outline se encuentre entre el margen y el borde. No ocupa mas pixeles */
+    outline: 10px solid black;
+}
