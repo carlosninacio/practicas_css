@@ -8,7 +8,9 @@ div {
     border: 15px solid blueviolet;
     margin: 80px;
     background-color: chartreuse;
-    width: 400px;
+    /* width: 400px;
+    con max-width se hace mas flexible y se ajusta a la pantalla y no crece mas de lo establecido*/
+    max-width: 100%;
     /* Outline se encuentre entre el margen y el borde. No ocupa mas pixeles */
     outline: 10px solid black;
     box-sizing: border-box;
