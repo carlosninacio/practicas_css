@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
 h1 {
     color: #ef476f;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #ced4da;
+    font-family: "Playwrite NZ Basic", cursive;
 }
 
 .caja {
@@ -26,6 +29,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-variant: small-caps;
+    font-size: small;
 }
 
 .fuente_georgia {
@@ -33,6 +37,7 @@ h1 {
     font-style: italic;
     font-weight: bold;
     font-variant: normal;
+    font-size: 1.2em; /* 16px = 1em */
 }
 
 .caja.sans-serif{
@@ -43,6 +48,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
     font-weight: bolder;
+    font-size: 3vw; /* v se usa para hacer la fuente responsiva al tamaño de la ventana 
+    vw - ancho ventana
+    vh - alto ventana
+    1v = 1%*/
 }
 
 .fuente_verdana {
