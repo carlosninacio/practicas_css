@@ -1,0 +1,15 @@
+body {
+    /*background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/Leccion5\ -\ Fondos/img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;*/
+    background-attachment: fixed;
+    background: dodgerblue url("/Leccion5\ -\ Fondos/img/fondo.png") no-repeat right top;
+    /*Solo con la propiedad background se pueden aplicar varias propiedades, menos attachment*/
+}
+
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+}
