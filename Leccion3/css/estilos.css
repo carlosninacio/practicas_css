@@ -6,11 +6,11 @@ h1 {
 div {
     padding: 30px; /* padding y margin son transparentes */
     border: 15px solid blueviolet;
-    margin: 80px;
+    margin: auto; /* con auto se centra automaticamente el div */
     background-color: chartreuse;
     /* width: 400px;
     con max-width se hace mas flexible y se ajusta a la pantalla y no crece mas de lo establecido*/
-    max-width: 100%;
+    max-width: 300px; /* También se puede usar en porcentajes, si se coloca el 100%, ocupa toda la pantalla*/
     /* Outline se encuentre entre el margen y el borde. No ocupa mas pixeles */
     outline: 10px solid black;
     box-sizing: border-box;
