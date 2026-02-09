@@ -25,11 +25,14 @@ h1 {
 }
 
 .fuente_times {
-    font-family: 'Times New Roman', Times, serif;
+    /*font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-variant: small-caps;
-    font-size: small;
+    font-size: small; */
+
+    /*font: font-style font-variant font-weight *font-size/line-heigth *font-family */
+    font: italic small-caps bolder 20px 'Times New Roman', Times, serif;
 }
 
 .fuente_georgia {
