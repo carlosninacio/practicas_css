@@ -21,4 +21,8 @@ h1 {
 .texto {
     text-align: justify;
     /* direction: rtl; right to left*/
+    text-indent: 30px;
+    line-height: 1.5;
+    /* white-space: nowrap; No se envuelve el texto en el div y no hay ningún enter */
+    text-shadow: 5px 5px 2px #ced4da;
 }
