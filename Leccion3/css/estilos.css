@@ -6,7 +6,7 @@ h1 {
 div {
     padding: 30px; /* padding y margin son transparentes */
     border: 15px solid blueviolet;
-    margin: auto; /* con auto se centra automaticamente el div */
+    margin-left: 100px; /* con auto se centra automaticamente el div */
     background-color: chartreuse;
     /* width: 400px;
     con max-width se hace mas flexible y se ajusta a la pantalla y no crece mas de lo establecido*/
@@ -14,4 +14,8 @@ div {
     /* Outline se encuentre entre el margen y el borde. No ocupa mas pixeles */
     outline: 10px solid black;
     box-sizing: border-box;
+}
+
+p.interno {
+    margin-left: inherit;
 }
