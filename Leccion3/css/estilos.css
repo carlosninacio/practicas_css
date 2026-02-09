@@ -8,7 +8,8 @@ div {
     border: 15px solid blueviolet;
     margin: 80px;
     background-color: chartreuse;
-    width: 150px;
+    width: 400px;
     /* Outline se encuentre entre el margen y el borde. No ocupa mas pixeles */
     outline: 10px solid black;
+    box-sizing: border-box;
 }
