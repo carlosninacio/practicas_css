@@ -19,3 +19,21 @@ div {
 p.interno {
     margin-left: inherit;
 }
+
+.caja1 {
+    padding: 10px 15px 5px 3px;
+    border: 1px solid blueviolet;
+    margin: 30px;
+    background-color: chartreuse;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.caja2 {
+    padding: 10px 15px 5px 3px;
+    border: 1px solid blueviolet;
+    margin: 20px;
+    background-color: chartreuse;
+    max-width: 300px;
+    box-sizing: border-box;
+}
