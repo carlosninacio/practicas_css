@@ -11,3 +11,7 @@ span {
     display: block; /* span por default es inline */
     border: 1px solid black;
 }
+
+a {
+    display: block;
+}
