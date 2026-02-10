@@ -3,5 +3,11 @@ h1, div, p {
     text-align: center;
     color: cornflowerblue;
     padding: 10px;
-    display: inline; /* El tipo inline pone los elementos uno al lado de otro */
+    /* display: inline;  El tipo inline pone los elementos uno al lado de otro */
+    display: block;
+}
+
+span {
+    display: block; /* span por default es inline */
+    border: 1px solid black;
 }
