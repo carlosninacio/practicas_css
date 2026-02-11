@@ -12,3 +12,11 @@ div.contenedor {
     color: #457b9d;
     text-align: center;
 }
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
