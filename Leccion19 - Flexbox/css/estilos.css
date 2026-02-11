@@ -7,6 +7,13 @@ h1 {
 div.contenedor {
     display: flex;
     background-color: #560bad;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 300px;
+    align-items: center; /* horizontal */
+    align-content: center; /* vertical, se notan cuando se tienen 2 o mas lineas */
 }
 
 div.contenedor > p {
