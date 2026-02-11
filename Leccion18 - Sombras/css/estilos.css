@@ -11,4 +11,6 @@ div.contenedor {
     border: 3px solid #a8dadc;
     padding: 15px;
     text-align: center;
+    /* Primer valor eje x, segundo valor eje y, tercer valor blur, cuarto valor tamaño de sombra y ultimo valor color */
+    box-shadow: 2px 2px 2px 2px grey;
 }
