@@ -12,3 +12,19 @@ div.contenedor {
     color: #457b9d;
     text-align: center;
 }
+
+/* para modificar elementos se usa :: */
+div.contenedor p::selection {
+    background-color: yellow;
+    color: red;
+}
+
+div.contenedor p::first-line {
+    font-variant: small-caps;
+    color: green;
+}
+
+div.contenedor p::first-letter {
+    color: red;
+    font-size: 1.5em;
+}
