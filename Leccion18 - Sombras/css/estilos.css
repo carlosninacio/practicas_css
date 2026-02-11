@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-    /* Primer valor eje x, segundo valor eje y */
-    text-shadow: 2px 2px;
+    /* Primer valor eje x, segundo valor eje y, tercer valor blur y ultimo valor color */
+    text-shadow: 2px 2px 5px grey;
 }
 
 div.contenedor {
