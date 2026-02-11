@@ -9,7 +9,8 @@ h1, div, p {
 
  /* h1 {
     display: none;
-} Esta propiedad de display sobreescribe a la de arriba y el display none oculta el elemento de la pagina web*/
+} Esta propiedad de display sobreescribe a la de arriba y el display none oculta el elemento de la pagina web.
+ None lo desaparece sin reservar el espacio del elemento, si se usa visibility = hidden, este si ocupa el espacio reservado*/
 
 span {
     display: block; /* span por default es inline */
