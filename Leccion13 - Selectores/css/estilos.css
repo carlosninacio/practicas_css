@@ -16,3 +16,13 @@ div.contenedor {
 div.contenedor.descendiente p {
     background-color: #fdffb6;
 }
+
+/* Para usar el tipo child, se pone mayor que y el elemento html. Solo se aplica a hijos directamente */
+div.contenedor.hijo > p {
+    background-color: #ffc6ff;
+}
+
+/* Para usar el tipo sibling, se pone + y el elemento html. Si no se coloca elemento, se aplica a cualquiera */
+div.contenedor.adyacente + p {
+    background-color: #caffbf;
+}
