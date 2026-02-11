@@ -4,10 +4,11 @@ h1 {
 }
 
 div {
-    position: relative;
+    /* position: relative;  Relative reserva su espacio y posteriormente se mueve lo indicado */
+    position: fixed; /* de manera fija de toda la pantalla (viewport) se aplica la posicion indicada de top y left. no reserva espacio */
     top: 100px;
     left: 50px;
-    max-width: 50%;
+    /*max-width: 50%;*/
     border: 3px solid firebrick;
-    margin: auto;
+    /*margin: auto;*/
 }
