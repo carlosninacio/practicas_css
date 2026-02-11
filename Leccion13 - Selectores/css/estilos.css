@@ -22,7 +22,12 @@ div.contenedor.hijo > p {
     background-color: #ffc6ff;
 }
 
-/* Para usar el tipo sibling, se pone + y el elemento html. Si no se coloca elemento, se aplica a cualquiera */
+/* Para usar el tipo adaycente, se pone + y el elemento html. Si no se coloca elemento, se aplica a cualquiera */
 div.contenedor.adyacente + p {
     background-color: #caffbf;
+}
+
+/* Para usar el tipo hermano, se pone virgulilla y el elemento html que se le quiera poner el estilo */
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
 }
