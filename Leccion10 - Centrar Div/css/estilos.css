@@ -3,12 +3,40 @@ h1 {
     color: crimson;
 }
 
-div {
+ /*div {*/
     /* position: relative;  Relative reserva su espacio y posteriormente se mueve lo indicado */
-    position: fixed; /* de manera fija de toda la pantalla (viewport) se aplica la posicion indicada de top y left. no reserva espacio */
-    top: 100px;
-    left: 50px;
+    /* position: fixed;  de manera fija en toda la pantalla (viewport) se aplica la posicion indicada de top y left. no reserva espacio.
+    Mantiene su lugar así se haga scroll */
+    /* position: absolute; Se usa para posicionar dentro de otro div (otro elemento padre). Si no hay otro div, entonces la pagina.
+    Se ajusta segun la pantalla si no hay div padre pero no es fijo como fixed. Si el div padre es static, no sirve*/
+    /* position: sticky;   En cuanto el elemento toca el borde y sale de pantalla, el valor se queda fijo como fixed. Primero es relativo
+    y luego cuando sale de pantalla es fixed */
+    /*top: 0;
+    /*left: 0px;*/
     /*max-width: 50%;*/
-    border: 3px solid firebrick;
+    /*border: 3px solid firebrick;
     /*margin: auto;*/
+/*}*/
+
+div.contenedor {
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    /* overflow: visible; por defecto, se salen del div */
+    /*overflow: hidden; /* overflow hidden hace que lo que se salga del div, se oculte */
+    /* overflow: scroll; lo que salga del div se oculta y se mueve mediante un scroll*/
+    /* overflow: auto; se colocan las barras de scroll en caso necesario */
+}
+
+.imagen {
+    width: 100%;
+    opacity: 0.5;
+}
+
+div.centro {
+    position: absolute;
+    top: 50%;
+    border: 1px solid blue;
+    width: 100%;
 }
