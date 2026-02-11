@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    /* Primer valor eje x, segundo valor eje y */
+    text-shadow: 2px 2px;
 }
 
 div.contenedor {
