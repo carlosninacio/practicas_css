@@ -1,0 +1,12 @@
+.git
+.gitignore
+
+*.log
+*.env
+*.bak
+
+Dockerfile.old
+docker-compose.yml.old
+
+.swp
+.swo
